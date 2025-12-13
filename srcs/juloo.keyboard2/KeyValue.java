@@ -602,6 +602,8 @@ public final class KeyValue implements Comparable<KeyValue>
       case "combining_kasratan": return makeCharKey(0xE219, '\u064D', 0);
       case "combining_dammatan": return makeCharKey(0xE220, '\u064C', 0);
       case "combining_alef_below": return makeCharKey(0xE221, '\u0656', 0);
+      case "combining_kavyka": return makeCharKey(0xE222, '\uA67C', 0);
+      case "combining_palatalization": return makeCharKey(0xE223, '\u0484', 0);
 
       /* Special event keys */
       case "config": return eventKey(0xE004, Event.CONFIG, FLAG_SMALLER_FONT);
@@ -767,6 +769,38 @@ public final class KeyValue implements Comparable<KeyValue>
       case "அ": case "எ": case "ச": case "ெ": case "ஐ": case "ி":
       case "௹": case "ள": case "ஹ": case "௰": case "ௐ": case "௱":
       case "௲": case "௳":
+        return makeStringKey(name, FLAG_SMALLER_FONT);
+
+      /* Sinhala letters to reduced size */
+      case "අ": case "ආ": case "ඇ": case "ඈ": case "ඉ":
+      case "ඊ": case "උ": case "ඌ": case "ඍ": case "ඎ":
+      case "ඏ": case "ඐ": case "එ": case "ඒ": case "ඓ":
+      case "ඔ": case "ඕ": case "ඖ": case "ක": case "ඛ":
+      case "ග": case "ඝ": case "ඞ": case "ඟ": case "ච":
+      case "ඡ": case "ජ": case "ඣ": case "ඤ": case "ඥ":
+      case "ඦ": case "ට": case "ඨ": case "ඩ": case "ඪ":
+      case "ණ": case "ඬ": case "ත": case "ථ": case "ද":
+      case "ධ": case "න": case "ඳ": case "ප": case "ඵ":
+      case "බ": case "භ": case "ම": case "ඹ": case "ය":
+      case "ර": case "ල": case "ව": case "ශ": case "ෂ":
+      case "ස": case "හ": case "ළ": case "ෆ":
+      /* Astrological numbers */
+      case "෦": case "෧": case "෨": case "෩": case "෪":
+      case "෫": case "෬": case "෭": case "෮": case "෯":
+      case "ෲ": case "ෳ":
+      /* Diacritics */
+      case "\u0d81": case "\u0d82": case "\u0d83": case "\u0dca":
+      case "\u0dcf": case "\u0dd0": case "\u0dd1": case "\u0dd2":
+      case "\u0dd3": case "\u0dd4": case "\u0dd6": case "\u0dd8":
+      case "\u0dd9": case "\u0dda": case "\u0ddb": case "\u0ddc":
+      case "\u0ddd": case "\u0dde": case "\u0ddf":
+      /* Archaic digits */
+      case "𑇡": case "𑇢": case "𑇣": case "𑇤": case "𑇥":
+      case "𑇦": case "𑇧": case "𑇨": case "𑇩": case "𑇪":
+      case "𑇫": case "𑇬": case "𑇭": case "𑇮": case "𑇯":
+      case "𑇰": case "𑇱": case "𑇲": case "𑇳": case "𑇴":
+      /* Exta */
+      case "෴": case "₨":  // Rupee is not exclusively Sinhala sign
         return makeStringKey(name, FLAG_SMALLER_FONT);
 
       /* Internal keys */

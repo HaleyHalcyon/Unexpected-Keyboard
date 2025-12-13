@@ -122,6 +122,8 @@ public class ExtraKeysPreference extends PreferenceCategory
     "combining_kasratan",
     "combining_dammatan",
     "combining_alef_below",
+    "combining_kavyka",
+    "combining_palatalization",
   };
 
   /** Whether an extra key is enabled by default. */
@@ -189,7 +191,6 @@ public class ExtraKeysPreference extends PreferenceCategory
         additional_info = format_key_combination_gesture(res, "forward_delete");
         break;
       case "selectAll": id = R.string.key_descr_selectAll; break;
-      case "shareText": id = R.string.key_descr_shareText; break;
       case "subscript": id = R.string.key_descr_subscript; break;
       case "superscript": id = R.string.key_descr_superscript; break;
       case "switch_greekmath": id = R.string.key_descr_switch_greekmath; break;
@@ -266,6 +267,8 @@ public class ExtraKeysPreference extends PreferenceCategory
       case "combining_kasratan":
       case "combining_dammatan":
       case "combining_alef_below":
+      case "combining_kavyka":
+      case "combining_palatalization":
         id = R.string.key_descr_combining;
         break;
     }

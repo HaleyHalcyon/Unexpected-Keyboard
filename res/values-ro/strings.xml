@@ -4,9 +4,10 @@
     <string name="app_name_debug">Tastatură Unexpected (depanare)</string>
     <string name="short_description">Tastatură virtuală pentru Android, ușoară și respectuoasă cu viața privată.</string>
     <string name="store_description">Funcționalitatea principală este accesul rapid la o mulțime de caractere ASCII prin glisarea către colțurile tastelor.\n\nAceastă aplicație a fost concepută inițial pentru programatori care folosec Termux.\nEste perfectă pentru uzul cotidian.\n\nAceastă aplicație nu conține publicitate, nu folosește rețeaua deloc și e Open Source.</string>
-    <string name="settings_activity_label">Setări Tastatură Unexpected</string>
     <string name="pref_portrait">În mod portret</string>
+    <!-- <string name="pref_portrait_unfolded">In portrait mode unfolded</string> -->
     <string name="pref_landscape">În mod panoramă</string>
+    <!-- <string name="pref_landscape_unfolded">In landscape mode unfolded</string> -->
     <string name="pref_category_layout">Aspect</string>
     <string name="pref_label_brightness">Modifică luminozitatea denumirii</string>
     <string name="pref_keyboard_opacity">Modifică opacitatea fundalului tastaturii</string>
@@ -48,8 +49,10 @@
     <string name="pref_switch_input_immediate_summary">Comportamentul tastei pentru schimbarea tastaturii</string>
     <!-- <string name="pref_vibrate_custom">Custom vibration</string> -->
     <!-- <string name="pref_vibrate_duration_title">Vibration intensity</string> -->
-    <!-- <string name="pref_pin_entry_enabled_title">Pin entry layout</string> -->
-    <!-- <string name="pref_pin_entry_enabled_summary">When typing numbers, dates and phone numbers</string> -->
+    <!-- <string name="pref_number_entry_title">Layout when typing numbers, dates and phone numbers</string> -->
+    <!-- <string name="pref_number_entry_layout_pin">PIN Entry</string> -->
+    <!-- <string name="pref_number_entry_layout_number">Number pane</string> -->
+    <!-- <string name="pref_number_entry_layout_normal">Use the main layout</string> -->
     <string name="pref_category_style">Stil</string>
     <string name="pref_margin_bottom_title">Marginea de jos</string>
     <string name="pref_keyboard_height_title">Înălțimea tastaturii</string>
@@ -106,7 +109,6 @@
     <!-- <string name="key_descr_paste">Paste</string> -->
     <!-- <string name="key_descr_cut">Cut</string> -->
     <!-- <string name="key_descr_selectAll">Select all</string> -->
-    <!-- <string name="key_descr_shareText">Share text</string> -->
     <!-- <string name="key_descr_pasteAsPlainText">Paste as plain text</string> -->
     <!-- <string name="key_descr_undo">Undo</string> -->
     <!-- <string name="key_descr_redo">Redo</string> -->
@@ -130,7 +132,7 @@
     <!-- <string name="key_descr_gesture">Gesture</string> -->
     <!-- <string name="clipboard_history_heading">Recently copied text</string> -->
     <!-- <string name="clipboard_pin_heading">Pinned</string> -->
-    <!-- <string name="clipboard_remove_confirm">Remove this clipboard?</string> -->
+    <!-- <string name="clipboard_remove_confirm">Remove this clipboard item?</string> -->
     <!-- <string name="clipboard_remove_confirmed">Yes</string> -->
     <!-- <string name="toast_no_voice_input">No voice typing app installed</string> -->
 </resources>
